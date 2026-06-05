@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             LinkSaverTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Fuck you Android",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
