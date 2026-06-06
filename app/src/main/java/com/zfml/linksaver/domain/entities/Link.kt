@@ -7,5 +7,6 @@ data class Link(
 
     val url: String,
 
-    val createdAt: Long
+    val createdAt: Long = System.currentTimeMillis()
+
 )

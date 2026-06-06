@@ -1,4 +1,4 @@
-package com.zfml.linksaver.presentation
+package com.zfml.linksaver.presentation.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -22,22 +22,8 @@ class HomeViewModel @Inject constructor(
             emptyList()
         )
 
-    init {
-        insertDummyData()
-    }
 
-    private fun insertDummyData() {
-        viewModelScope.launch {
-            repository.insert(
-                Link(
-                    id = 0,
-                    title = "Google",
-                    url = "https://google.com",
-                    createdAt = 0
-                )
-            )
-        }
-    }
+
 
     fun delete(link: Link) {
         viewModelScope.launch {
