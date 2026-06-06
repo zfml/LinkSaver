@@ -73,7 +73,7 @@ fun AddLinkScreen(
                 leadingIcon = { Icon(Icons.Default.Title, contentDescription = null) },
                 trailingIcon = {
                     if (state.title.isNotEmpty()) {
-                        IconButton(onClick = { viewModel.onUrlChange("") }) {
+                        IconButton(onClick = { viewModel.onTitleChange("") }) {
                             Icon(Icons.Default.Clear, contentDescription = "Clear text")
                         }
                     }

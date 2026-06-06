@@ -18,6 +18,9 @@ class AddLinkViewModel @Inject constructor(
 ): ViewModel() {
     var uiState by mutableStateOf(AddLinkUiState())
 
+    var linkSaved by mutableStateOf(false)
+        private set
+
     fun onUrlChange(url: String) {
         uiState = uiState.copy(url = url)
     }

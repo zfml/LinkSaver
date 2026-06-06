@@ -110,7 +110,7 @@ fun HomeScreen(
                     contentPadding = PaddingValues(vertical = 12.dp, horizontal = 16.dp),
                     verticalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
-                    items(links, key = { it.url }) { link ->
+                    items(links, key = { it.id}) { link ->
                         SaveLinkItem(
                             link = link,
                             onDelete = { viewModel.delete(link) },
