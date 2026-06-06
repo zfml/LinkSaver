@@ -37,7 +37,7 @@
 ### 1. Clone the Repository
 First, clone this project from GitHub:
 
-git clone https://github.com/your-username/LinkSaver.git
+git clone https://github.com/zfml/LinkSaver.git
 
 ### 2. Open in Android Studio
 - Open Android Studio
