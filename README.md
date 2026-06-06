@@ -6,9 +6,12 @@
 
    
 ## Description
- I forget post or videos when I need to read or watch again.So, I built this app to save links to search again easily .
- The user can save links with title into our app and view list of links and browse the link directly to Browser. The user can delete the specific
- link with swipe gesture.
+ When I learned  Android Development , I found useful articles and videos on Medium or Youtube but I forgot posts or videos when I needed to read or watch again.So,
+ I built Link Saver as Android Application to solve this problem. 
+ The user can save URL links with title into our app .
+ The user can view list of links and browse the link directly in Browser. The user can delete the unnecessary
+ links with swipe gesture.This project was built as my CS50x final project to demonstrate my understanding of Modern Android Development using Kotlin,Jetpack Compose
+ , MVVM architecture and SOLID principles .
 
 
 
