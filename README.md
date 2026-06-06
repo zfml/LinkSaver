@@ -1,17 +1,14 @@
 #### Video Demo:  https://youtu.be/X9-Q11-TnYQ
-## Link Saver
+## About
    **Link Saver** is an Android App saving  links for later built with **Kotlin** and **Jetpack Compose**, using **Room Database** to save links.
-   
-   
 
-   
 ## Description
  When I learned  Android Development , I found useful articles and videos on Medium or Youtube but I forgot posts or videos when I needed to read or watch again.So,
  I built Link Saver as Android Application to solve this problem. 
  The user can save URL links with title into our app .
- The user can view list of links and browse the link directly in Browser. The user can delete the unnecessary
- links with swipe gesture.This project was built as my CS50x final project to demonstrate my understanding of Modern Android Development using Kotlin,Jetpack Compose
- , MVVM architecture and SOLID principles .
+ The user can view list of links and browse the link directly in Browser. The user can delete the unnecessary links with swipe gesture.
+ This project was built as my CS50x final project to demonstrate my understanding of Modern Android Development using Kotlin,Jetpack Compose
+ , MVVM architecture and SOLID principles . 
 
 
 
@@ -27,11 +24,12 @@
    
 
 ## Tech Stack
-- Kotlin
-- Jetpack Compose
-- Hilt Dependencies Injection
-- Room Database
-- MVVM Architecture
+- **Language** Kotlin
+- **UI Framework** Jetpack Compose
+- **Dependency Injection** 
+- **Database** Room Database
+- **Navigation** Compose Navigation
+- **Architecture* MVVM (Model-View-ViewModel)
 
 
 
