@@ -6,9 +6,10 @@
 
    
 ## Description
- When it comes to studying Android Development, greatest article on medium and videos on youtubes etc are important. I've got a personal problem.
- I found the great article and read but I forgot when I wanted to read again. So, I created the project LinkSave to save post or video links to
- find again easily.
+ I forget post or videos when I need to read or watch again.So, I built this app to save links to search again easily .
+ The user can save links with title into our app and view list of links and browse the link directly to Browser. The user can delete the specific
+ link with swipe gesture.
+
 
 
 
@@ -29,9 +30,29 @@
 - Room Database
 - MVVM Architecture
 
-## What I learned
- I learned how state management works and how MVVM Architecture is important to be maintainable and scalable.
- And How SOLID principle is important
+
+
+## How to Run the Project
+
+### 1. Clone the Repository
+First, clone this project from GitHub:
+
+git clone https://github.com/your-username/LinkSaver.git
+
+### 2. Open in Android Studio
+- Open Android Studio
+- Click on "Open"
+- Select the cloned project folder
+
+### 3. Sync Gradle
+Allow Android Studio to download all dependencies and sync Gradle automatically.
+
+### 4. Run the App
+- Connect an Android emulator or physical device
+- Click the "Run" button in Android Studio
+
+
+
 
 
 ## Screenshots
